@@ -9,7 +9,7 @@ namespace GeometryLib.Tests
         [TestMethod]
         public void CalcSquare_R2_4PIreturned()
         {
-            // при радиусе круга R = 2 ожидаем площадь S = 4 * PI
+            // РїСЂРё СЂР°РґРёСѓСЃРµ РєСЂСѓРіР° R = 2 РѕР¶РёРґР°РµРј РїР»РѕС‰Р°РґСЊ S = 4 * PI
 
             // Arrange
             Circle circle = new Circle(2f);

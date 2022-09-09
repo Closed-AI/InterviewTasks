@@ -1,4 +1,4 @@
-﻿using GeometryLib;
+using GeometryLib;
 using System;
 
 namespace ExampleProject

@@ -1,4 +1,4 @@
-------------- Подготовительные шаги (создание бд и таблиц)  -------------
+------------- РџРѕРґРіРѕС‚РѕРІРёС‚РµР»СЊРЅС‹Рµ С€Р°РіРё (СЃРѕР·РґР°РЅРёРµ Р±Рґ Рё С‚Р°Р±Р»РёС†)  -------------
 create database TestBase;
 go;
 
@@ -26,7 +26,7 @@ go
 
 insert Categories values('food')
 insert Categories values('liquid')
-insert Categories values('best_choiсe')
+insert Categories values('best_choiСЃe')
 
 create table Products_Categories
 (
@@ -41,7 +41,7 @@ insert Products_Categories values(2,1)
 insert Products_Categories values(2,2)
 insert Products_Categories values(2,3)
 
--------------------- Выполнение задания (сам запрос) --------------------
+-------------------- Р’С‹РїРѕР»РЅРµРЅРёРµ Р·Р°РґР°РЅРёСЏ (СЃР°Рј Р·Р°РїСЂРѕСЃ) --------------------
 select dbo.Products.ID, dbo.Products.name as ProductName, dbo.Categories.name as CategoryName
   from dbo.Products
 left outer join dbo.Products_Categories
